@@ -1,0 +1,41 @@
+.d-block {
+    border-radius: 50%;
+}
+
+.background {
+    background: #213555;
+}
+
+h1, p, h2, .my-font {
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    color: #D8C4B6
+}
+
+.my-font {
+    color: #F5EFE7;
+    font-size: 14pt;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.sub-heading {
+    color: #F5EFE7;
+}
+
+.bullet-font {
+    color: #F5EFE7;
+    font-size: 14pt;
+}
