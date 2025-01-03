@@ -1,0 +1,93 @@
+
+p {
+    color: white;
+}
+
+.nav-item {
+    padding-right: 25px;
+}
+
+.fs-4 {
+    font-size: 18pt !important;
+    font-family: "Arial", sans-serif;
+    font-size: 14pt;
+    color: #517EA6;
+    padding-left: 10px;
+}
+
+.bi-house {
+    margin-left: 5px;
+}
+
+.nav-link.active {
+    background-color: #517EA6 !important;
+}
+
+input, textarea {
+    background-color: whitesmoke; 
+    border: 1px solid #517EA6;  
+    color: #4B5A66;
+    padding: 10px;             
+    border-radius: 5px;
+}
+
+.container.textbox {
+    margin-left: 25px;
+}
+
+.body-heading {
+    margin-left: 10px;
+}
+
+.submit-box {
+    border-radius: 8px;
+    margin-left: 5px;
+    position: relative;
+    top: -15px;
+    background-color: #517EA6;
+    border: 1px solid #4B5A66;
+    color: white;
+    padding: 5px 10px;
+}
+
+.delete-box {
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #517EA6;
+    background-color: #4B5A66;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+
+.body-heading.next {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #517EA6;
+}
+
+.body-text {
+    margin-left: 50px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.save-box {
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #4B5A66;
+    background-color: #517EA6;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}

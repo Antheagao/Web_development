@@ -1,0 +1,29 @@
+<%- include("partials/header.ejs") %>
+
+<h2 class="container body-heading"> Create a Blog </h2>
+<br/>
+
+<form action="/submit" method="POST" class="container textbox">
+    <input type="text" name="title" placeholder="Blog Title" required>
+    <br/><br/>
+    <textarea id="text" name="text" placeholder="Write your blog here..." rows="5" cols="50" required></textarea>
+    <input type="submit" value="SUBMIT" class="submit-box">
+</form>
+
+<h2 class="container body-heading next"> Posted Blog Titles </h2>
+<% if (locals.blogs) { %>
+    <ul class="container textbox">
+        <% locals.blogs.forEach(blog => { %>
+            <li>
+                <form action="/blogs/<%= blog.id %>/delete" method="POST">
+                    <button type="submit" class="delete-box"> Delete </button>
+                    <a href="/blogs/<%= blog.id %>"> <%= blog.title %> </a>
+                </form>
+            </li>
+        <% }); %>
+    </ul>
+<% } else { %>
+    <p class="container body-text"> No blogs have been posted yet. </p>
+<% } %>
+
+<%- include("partials/footer.ejs") %>
